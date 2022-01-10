@@ -45,14 +45,15 @@ function Header() {
         </button>
       </div>
       <div className="flex items-center space-x-2">
-        <button className=" bg-gray-200 rounded-full p-2">
-          <div className="relative h-4 w-8 rounded-md bg-gray-200">
+        <button className=" hover:bg-gray-200 rounded-full p-2 flex items-center justify-start">
+          <div className="relative h-4 w-7 rounded-md">
             <img
               src="/smallProfile.jpg"
-              className="h-6 w-6 rounded-full absolute -left-[4px] -top-[4px]"
+              className="h-7 w-7 rounded-full absolute -left-[4px] -top-[6px]"
               alt=""
             />
           </div>
+          <p className="text-base font-medium mx-1">Saif</p>
         </button>
         <button className=" bg-gray-200 rounded-full p-2">
           <PlusIcon className="h-5 " />
