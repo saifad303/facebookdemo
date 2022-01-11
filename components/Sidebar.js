@@ -20,7 +20,7 @@ import { useState } from "react";
 function Sidebar() {
   const [isSeeMore, setIsSeeMore] = useState(false);
   return (
-    <div className="pl-6 flex flex-col items-start w-[300px] h-screen bg-gray-200">
+    <div className="pl-6 flex flex-col items-start w-[300px] h-screen">
       <div className=" w-full overflow-y-hidden hover:overflow-y-auto h-[94%] pt-6 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
         <button className="flex items-center justify-start space-x-2 hover:bg-gray-300 w-full py-3 pl-2 rounded-md rounded-r-none">
           <img
