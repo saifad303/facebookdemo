@@ -20,7 +20,7 @@ function Stories() {
     }
   }, []);
   return (
-    <div className="bg-white px-2 py-2 rounded-md">
+    <div className="bg-white px-2 py-2 rounded-md mt-3 lg:mt-0">
       <div className="flex items-center mb-2 mx-2">
         <p className="text-base font-medium">Stories</p>
         <ClockIcon className="h-4 ml-auto text-gray-400" />
